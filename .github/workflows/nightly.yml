@@ -3,7 +3,7 @@ name: nightly
 on:
   schedule:
     - cron:  '0 0 * * *'
-    - cron:  '0 23 * * *'
+    - cron:  '35 23 * * *'
     
 jobs:
   build:
@@ -34,6 +34,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: ./api/Dockerfile
+          file: ./Dockerfile
           push: true
           tags: ${{ secrets.docks_name }}/backend:nightly
