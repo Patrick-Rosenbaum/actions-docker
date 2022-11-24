@@ -26,6 +26,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: ./frontend/Dockerfile
+          file: ./backend/Dockerfile
           push: true
           tags: ${{ secrets.docks_name }}/backend:0.1
