@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./frontend/Dockerfile
           push: true
-          tags: ${{ secrets.docks_name }}/backend:github.run_id
+          tags: ${{ secrets.docks_name }}/backend:0.1
