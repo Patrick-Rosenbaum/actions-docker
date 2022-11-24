@@ -3,10 +3,8 @@ name: nightly
 on:
   schedule:
     - cron:  '0 0 * * *'
-    - cron:  '35 22 * * *'
-    branches:
-      - "main"
-
+    - cron:  '0 23 * * *'
+    
 jobs:
   build:
     runs-on: ubuntu-latest
