@@ -1,4 +1,4 @@
 id,name,done
 1,API programmieren,true
-2,Frontend programmieren,false
-3,Dokumentation erstellen,false
+2,Frontend programmieren,true
+3,Dokumentation erstellen,true
