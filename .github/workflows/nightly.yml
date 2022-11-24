@@ -3,7 +3,7 @@ name: nightly
 on:
   schedule:
     - cron:  '0 0 * * *'
-    - cron:  '35 23 * * *'
+    - cron:  '37 22 * * *'
     
 jobs:
   build:
