@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.docks_name }}/backend:0.1
+          tags: ${{ secrets.docks_name }}/ttd-backend:${{ github.run_number}}
